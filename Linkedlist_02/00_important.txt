@@ -1,0 +1,15 @@
+remove cycle in ll -> LEARN steps
+
+1. detect cycle
+2. slow = head;
+
+while(slow!=fast) // also keep track of prev // one before than fast
+{
+    slow+1;
+    fast+1;
+}
+
+prev = lastNode
+prev->next = NULL
+-> cycle removed
+
