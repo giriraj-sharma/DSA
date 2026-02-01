@@ -1,0 +1,30 @@
+class Solution {
+public:
+    // TC: O(n)
+    // SC: O(1)
+    bool areAlmostEqual(string s1, string s2) {
+
+        if (s1.length() != s2.length())
+            return false;
+
+        vector<int> diff;
+
+        // Store indices where characters differ
+        for (int i = 0; i < s1.length(); i++) {
+            if (s1[i] != s2[i])
+                diff.push_back(i);
+        }
+
+        // If strings already equal
+        if (diff.size() == 0)
+            return true;
+
+        // Exactly two mismatches required for one swap
+        if (diff.size() != 2)
+            return false;
+
+        // Check if swapping fixes the strings
+        return (s1[diff[0]] == s2[diff[1]] &&
+                s1[diff[1]] == s2[diff[0]]);
+    }
+};
