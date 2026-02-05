@@ -1,0 +1,9 @@
+FIFO(First In First Out)
+
+
+all ops are -> O(1)
+push() -> from back (enqueue)
+pop() -> from front(dequeue)
+front() -> return front element
+
+
