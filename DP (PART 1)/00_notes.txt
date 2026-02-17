@@ -1,0 +1,18 @@
+Dynamic programming 
+-> approach
+-> optimized recursion
+-> used to optimize time complexity
+
+Optimal Substructure -> the problem to which we can break in smaller problem. then the solution of smaller problems merged to get the big problem solution 
+(optimal means where we find -> smallest, largest, greatest, max profit)
+Over lapping SubProblem (recursion with choices i.e. multiple branches) -> when same sub problem in different different recursive subtree.
+
+
+Types of Dynamic Programming:
+
+MEMOIZATION             TABULATION (more optimised in term of SC)
+------------           -------------
+Recursive               iterative
+top down dp             bottom up dp
+largest to smallest     smallest to largest
+ 

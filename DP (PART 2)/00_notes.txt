@@ -1,0 +1,15 @@
+Knapsack Problems
+-> Fractional Knapsack (greedy)
+-> 0-1 Knapsack
+-> Unbounded Knapsack
+
+
+0-1 Knapsack (either we add that item or dont add that item)
+ex. laptop, computer, pen, tablet
+
+Unbounded Knapsack -> this is like 0-1 knapsack but each item is available in unlimited quantity, so we can take the same item multiple times
+
+
+
+
+
